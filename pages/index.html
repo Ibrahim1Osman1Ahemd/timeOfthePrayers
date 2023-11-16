@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El-slouat</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="/node_modules/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2><a href="#">El-slouat</a></h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a> </li>
+                <li><a href="#" id="lang-btn">languge</a></li>
+                <li><a href="#" id="countrey">contrey</a></li>
+            </ul>   
+        </nav>
+    </header>
+
+    <div class="country-nav lang" id="lang-nav" style="display:none;">
+        <ul>
+            <li id="ar">AR</li>
+            <li id="us">US</li>
+        </ul>
+    </div>
+
+    <div class="country-nav" id="con-nav">
+        <ul>
+            <li onclick="getThePrayerTime(this.id)" id="Egyptian General Authority of Survey">Eygept</li>
+            <li onclick="getThePrayerTime(this.id)" id="Qatar">Qatar</li>
+            <li onclick="getThePrayerTime(this.id)" id="sd">Sudan</li>
+            <li onclick="getThePrayerTime(this.id)" id="Umm Al-Qura University, Makkah">SaudeyAR</li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="time-card">
+            <div class="image-card">
+                <img src="/imge/images.jpg" alt="musqte imge">
+            </div>
+            <div class="salah-name">
+                <h3>El-suoboh</h3>
+            </div>
+            <div class="time">
+                <p id="El-suoboh">0:00</p>
+            </div>
+        </div>
+        <div class="time-card">
+            <div class="image-card">
+                <img src="/imge/images.jpg" alt="musqte imge">
+            </div>
+            <div class="salah-name">
+                <h3>Dhuhr</h3>
+            </div>
+            <div class="time">
+                <p id="Dhuhr">0:00</p>
+            </div>
+        </div>
+        <div class="time-card">
+            <div class="image-card">
+                <img src="/imge/images.jpg" alt="musqte imge">
+            </div>
+            <div class="salah-name">
+                <h3>Asr</h3>
+            </div>
+            <div class="time">
+                <p id="Asr">0:00</p>
+            </div>
+        </div>
+        <div class="time-card">
+            <div class="image-card">
+                <img src="/imge/images.jpg" alt="musqte imge">
+            </div>
+            <div class="salah-name">
+                <h3>Maghrib</h3>
+            </div>
+            <div class="time">
+                <p id="Maghrib">0:00</p>
+            </div>
+        </div>
+        <div class="time-card">
+            <div class="image-card">
+                <img src="/imge/images.jpg" alt="musqte imge">
+            </div>
+            <div class="salah-name">
+                <h3>Isha<h3>
+            </div>
+            <div class="time">
+                <p id="Isha">0:00</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copy-right">
+            <p>©<span>right Reversed</span>.ibrahim osman</p>
+        </div>
+        <div class="social">
+
+        </div>
+    </footer>
+</body>
+<script src="/logic/main.js"></script>
+</html>
