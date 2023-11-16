@@ -1,4 +1,5 @@
 // const { default: axios } = require("axios");
+import axios from "axios";
 
 let contryBtn = document.getElementById("countrey");
 let langBtn = document.getElementById("lang-btn");
