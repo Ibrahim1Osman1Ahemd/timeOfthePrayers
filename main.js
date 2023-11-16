@@ -57,7 +57,3 @@ function getThePrayerTime(id){
 
 getThePrayerTime('Qatar')
 
-
-let names = ['isaha','ahmed','omer',{nastedname: 'ahmed',name2:['ahmed','omer'],op:{again: 'omer'}}]
-
-console.log(names[3].name2[0])
